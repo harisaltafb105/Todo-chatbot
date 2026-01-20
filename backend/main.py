@@ -43,6 +43,7 @@ app.add_middleware(
         "http://localhost:3000",  # Next.js default port
         "http://localhost:3001",  # Alternative Next.js port
         "http://localhost:3002",  # Alternative Next.js port
+        "https://todo-chatbot-phi.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
